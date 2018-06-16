@@ -21,11 +21,11 @@ TargetOutputMedium=Print Job
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=Default Configuration
-TargetPrinter=Lexmark CS510 Series PS3
+TargetPrinter=Lexmark CS510 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
-OutputMedium1_Printer=Lexmark CS510 Series PS3
+OutputMedium1_Printer=Lexmark CS510 Series
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputMedium2=PDF
 OutputMedium2_Type=Publish
@@ -264,6 +264,31 @@ OutputEnabled12_OutputMedium4=0
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
 Configuration12_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=False|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False
+OutputType13=Board Stack Report
+OutputName13=Board Stack Report
+OutputCategory13=Fabrication
+OutputDocumentPath13=
+OutputVariantName13=
+OutputEnabled13=0
+OutputEnabled13_OutputMedium1=0
+OutputEnabled13_OutputMedium2=0
+OutputEnabled13_OutputMedium3=0
+OutputEnabled13_OutputMedium4=0
+OutputDefault13=0
+OutputType14=PDF3D
+OutputName14=PDF3D
+OutputCategory14=Documentation
+OutputDocumentPath14=
+OutputVariantName14=
+OutputEnabled14=1
+OutputEnabled14_OutputMedium1=6
+OutputEnabled14_OutputMedium2=6
+OutputEnabled14_OutputMedium3=0
+OutputEnabled14_OutputMedium4=0
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration14_Name1=OutputConfigurationParameter1
+Configuration14_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9
 
 [PublishSettings]
 OutputFilePath2=PROJECT_ABSOLUTE_PATH\Project Outputs for PROJECT_NAME\
@@ -282,8 +307,8 @@ OpenOutput2=1
 PromptOverwrite2=1
 PublishMethod2=0
 ZoomLevel2=50
-FitSCHPrintSizeToDoc2=1
-FitPCBPrintSizeToDoc2=1
+FitSCHPrintSizeToDoc2=0
+FitPCBPrintSizeToDoc2=0
 GenerateNetsInfo2=1
 MarkPins2=1
 MarkNetLabels2=1
@@ -320,8 +345,8 @@ OpenOutput4=1
 PromptOverwrite4=1
 PublishMethod4=5
 ZoomLevel4=50
-FitSCHPrintSizeToDoc4=1
-FitPCBPrintSizeToDoc4=1
+FitSCHPrintSizeToDoc4=0
+FitPCBPrintSizeToDoc4=0
 GenerateNetsInfo4=1
 MarkPins4=1
 MarkNetLabels4=1
