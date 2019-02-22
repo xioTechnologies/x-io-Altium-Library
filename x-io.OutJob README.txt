@@ -1,2 +1,4 @@
-Find and replace the following string:
-PROJECT_NAME
+1. Find and replace "PROJECT_NAME" in the .OutJob file
+2. PCB Prints > Configure > Right-click > Create Composite
+3. PCB Prints > Configure > Right-click > Insert Printout Set
+4. Gerber Files > Configure > enable required layers
